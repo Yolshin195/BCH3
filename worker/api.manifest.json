@@ -1,0 +1,22 @@
+{
+    "output": {
+        "registerWorker": 1
+    },
+
+    "input": {
+        "runTask": {
+            "params": {
+                "point": ["x", "y", "z"],
+                "numberElements": 0
+            }
+        },
+        "getResult": {
+            "Количество попаданий": 0,
+            "Количество поражающих елементов": 0
+        },
+        "getStatus": {
+            "returna": {"run" : "false|true", "modelName": "string"}
+        },
+        "setModel": {"input": {"modelName": "string", "file": "buite"}}
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "host": "localhost",
+    "port": 3200,
+    "model": {
+        "path": "public/",
+        "modelName": "model.stl"
+    },
+
+    "worker": {
+        "method": {
+            "setModel": "/set/model"
+        }
+    }
+
+}
